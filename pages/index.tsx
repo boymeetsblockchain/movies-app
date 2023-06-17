@@ -2,7 +2,6 @@
 
 import { getSession, signOut } from 'next-auth/react'
 import { NextPageContext } from 'next'
-import useCurrentUser from '@/hooks/useCurrentUser'
 import useFavourites from "@/hooks/useFavorites"
 import Navbar from '@/components/Navbar'
 import BillBoard from '@/components/BillBoard'
